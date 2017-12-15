@@ -4,7 +4,7 @@ Source plugin for pulling data into Gatsby from the official Github v4 [graphQL 
 
 ## Install
 
-`npm install --save gatsby-source-github`
+`npm i gatsby-source-github-api`
 
 ## How to use
 Follow Github's guide to [generate a token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
@@ -16,16 +16,15 @@ In there, you want to add this plugin and at least add the token in the options 
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-github`,
+    resolve: `gatsby-source-github-api`,
     options: {
       // token required by the Github API
-      token: someString = undefined, //required
+      token: someString,
       // graphQL query
       // defaults to a search query. See below
       graphQLQuery: anotherString,
       // graphQL variables
-      // defaults to variables needed for a
-      // search query. See below
+      // defaults to variables needed for a search query. See below
       variables: someObject
     }
   }
