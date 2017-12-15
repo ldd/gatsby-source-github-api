@@ -19,7 +19,7 @@ plugins: [
     resolve: `gatsby-source-github-api`,
     options: {
       // token required by the Github API
-      token: someString, //required
+      token: someString,
       // graphQL query
       // defaults to a search query. See below
       graphQLQuery: anotherString,
