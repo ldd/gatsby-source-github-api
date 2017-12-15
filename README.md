@@ -4,7 +4,7 @@ Source plugin for pulling data into Gatsby from the official Github v4 [graphQL 
 
 ## Install
 
-`npm i ldd/gatsby-source-github`
+`npm i gatsby-source-github-api`
 
 ## How to use
 Follow Github's guide to [generate a token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
