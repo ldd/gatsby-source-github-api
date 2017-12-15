@@ -16,16 +16,15 @@ In there, you want to add this plugin and at least add the token in the options 
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-github`,
+    resolve: `gatsby-source-github-api`,
     options: {
       // token required by the Github API
-      token: someString = undefined, //required
+      token: someString, //required
       // graphQL query
       // defaults to a search query. See below
       graphQLQuery: anotherString,
       // graphQL variables
-      // defaults to variables needed for a
-      // search query. See below
+      // defaults to variables needed for a search query. See below
       variables: someObject
     }
   }
