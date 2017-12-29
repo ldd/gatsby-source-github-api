@@ -1,9 +1,7 @@
-# gatsby-source-github
-
-Source plugin for pulling data into Gatsby from the official Github v4 [graphQL API](https://developer.github.com/v4/).
+# gatsby-source-github-api
+Source plugin for pulling data into Gatsby from the official Github v4 [GraphQL API](https://developer.github.com/v4/).
 
 ## Install
-
 `npm i gatsby-source-github-api`
 
 ## How to use
@@ -18,13 +16,13 @@ plugins: [
   {
     resolve: `gatsby-source-github-api`,
     options: {
-      // token required by the Github API
+      // token: required by the Github API
       token: someString,
-      // graphQL query
-      // defaults to a search query. See below
+      
+      // GraphQLquery: defaults to a search query.
       graphQLQuery: anotherString,
-      // graphQL variables
-      // defaults to variables needed for a search query. See below
+      
+      // variables: defaults to variables needed for a search query.
       variables: someObject
     }
   }
