@@ -31,9 +31,9 @@ plugins: [
 ]
 ```
 
-### Examples (How to use)
+### Examples
 
-Simple search query
+Search query
 ```javascript
 // In your gatsby-config.js
 plugins: [
@@ -63,7 +63,8 @@ resulting API call:
     }
   }
 ```
-generic graphQL query 
+
+Custom GraphQL query 
 ```javascript
 // In your gatsby-config.js
 plugins: [
@@ -92,12 +93,14 @@ resulting API call:
   }
 ```
 
+For more examples see [gatsby-starter-github-portfolio](https://github.com/ldd/gatsby-starter-github-portfolio).
+
 ## Tips and Tricks
 
-You'll probably want to use valid graphQL queries. To help you, Github has a [Query Explorer](https://developer.github.com/v4/explorer/) with auto-completion.
+You'll probably want to use valid GraphQL queries. To help you, Github has a [Query Explorer](https://developer.github.com/v4/explorer/) with auto-completion.
 
 ![Query Explorer](https://user-images.githubusercontent.com/1187476/30273078-69695a10-96c5-11e7-90b8-7dc876cc214a.png)
 
-### Changelog
+## Changelog
 
 v0.0.3    Initial public release
