@@ -1,11 +1,11 @@
 # gatsby-source-github-api
-Source plugin for pulling data into Gatsby from the official Github v4 [GraphQL API](https://developer.github.com/v4/).
+Source plugin for pulling data into Gatsby from the official GitHub v4 [GraphQL API](https://developer.github.com/v4/).
 
 ## Install
 `npm i gatsby-source-github-api`
 
 ## How to use
-Follow Github's guide to [generate a token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+Follow GitHub's guide [how to generate a token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/).
 
 Once you are done, either create a `gatsby-config.js` file or open the one you already have.
 
@@ -16,22 +16,22 @@ plugins: [
   {
     resolve: `gatsby-source-github-api`,
     options: {
-      // token: required by the Github API
+      // token: required by the GitHub API
       token: someString,
       
-      // GraphQLquery: defaults to a search query.
+      // GraphQLquery: defaults to a search query
       graphQLQuery: anotherString,
       
-      // variables: defaults to variables needed for a search query.
+      // variables: defaults to variables needed for a search query
       variables: someObject
     }
   }
 ]
 ```
 
-### Examples
+## Examples
 
-Search query
+**Search query:**
 ```javascript
 // In your gatsby-config.js
 plugins: [
@@ -62,7 +62,7 @@ resulting API call:
   }
 ```
 
-Custom GraphQL query 
+**Custom GraphQL query:**
 ```javascript
 // In your gatsby-config.js
 plugins: [
@@ -95,10 +95,10 @@ For more examples see [gatsby-starter-github-portfolio](https://github.com/ldd/g
 
 ## Tips and Tricks
 
-You'll probably want to use valid GraphQL queries. To help you, Github has a [Query Explorer](https://developer.github.com/v4/explorer/) with auto-completion.
+You'll probably want to use valid GraphQL queries. To help you, GitHub has a [Query Explorer](https://developer.github.com/v4/explorer/) with auto-completion.
 
 ![Query Explorer](https://user-images.githubusercontent.com/1187476/30273078-69695a10-96c5-11e7-90b8-7dc876cc214a.png)
 
 ## Changelog
 
-v0.0.3    Initial public release
+v0.0.3 Initial public release
