@@ -101,5 +101,6 @@ You'll probably want to use valid GraphQL queries. To help you, GitHub has a [Qu
 
 ## Changelog
 
+v0.1.0 Submit to Gatsby's Plugin Library
 v0.0.4 Update dev dependencies, add linting script to package.json
 v0.0.3 Initial public release
