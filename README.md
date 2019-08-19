@@ -36,7 +36,7 @@ plugins: [
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-github`,
+    resolve: `gatsby-source-github-api`,
     options: {
       token: 'hunter2',
       variables: {
@@ -67,7 +67,7 @@ resulting API call:
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-github`,
+    resolve: `gatsby-source-github-api`,
     options: {
       token: 'hunter2',
       variables: {},
