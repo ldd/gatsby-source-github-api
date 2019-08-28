@@ -25,7 +25,10 @@ exports.sourceNodes = (
             .createHash(`md5`)
             .update(JSON.stringify(result))
             .digest(`hex`),
-          mediaType: "application/json"
+          // see https://github.com/ldd/gatsby-source-github-api/issues/10
+          // our node should have an 'application/json' MIME type, but we wish
+          // transformers to ignore it, so we set its mediaType to text/plain for now
+          mediaType: "text/plain"
         }
       });
       resolve();
