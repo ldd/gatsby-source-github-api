@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-github-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "gatsby plugin for github v4 API",
   "main": "index.js",
   "repository": {
