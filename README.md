@@ -114,6 +114,9 @@ You'll probably want to use valid GraphQL queries. To help you, GitHub has a [Qu
 
 ## Changelog
 
+- `v0.1.4`
+  - Add tests
+  - expose DEFAULT_QUERY by exporting it
 - `v0.1.3`
   - Change mediaType of exported node to be ignored by `gatsby-transformer-json`
   - prettify changelog of this file
