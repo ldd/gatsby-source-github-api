@@ -36,3 +36,4 @@ async function fetchJSON(fetch, token, query, variables) {
 }
 
 exports.fetchFromGithub = fetchFromAPI;
+exports.DEFAULT_QUERY = DEFAULT_QUERY;
