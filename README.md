@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/ldd/gatsby-source-github-api.svg?branch=master)](https://travis-ci.com/ldd/gatsby-source-github-api)
+[![Coverage Status](https://coveralls.io/repos/github/ldd/gatsby-source-github-api/badge.svg?branch=master)](https://coveralls.io/github/ldd/gatsby-source-github-api?branch=master)
+
 # gatsby-source-github-api
 
 Source plugin for pulling data into Gatsby from the official GitHub v4 [GraphQL API](https://developer.github.com/v4/).
