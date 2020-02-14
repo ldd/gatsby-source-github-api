@@ -117,6 +117,8 @@ You'll probably want to use valid GraphQL queries. To help you, GitHub has a [Qu
 
 ## Changelog
 
+- `v0.1.5`
+  - document url option (for GitHub Enterprise users, etc)
 - `v0.1.4`
   - Add tests
   - expose DEFAULT_QUERY by exporting it
