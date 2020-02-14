@@ -23,6 +23,9 @@ plugins: [
   {
     resolve: `gatsby-source-github-api`,
     options: {
+      // url: API URL to use. Defaults to  https://api.github.com/graphql
+      url: someUrl,
+
       // token: required by the GitHub API
       token: someString,
 
