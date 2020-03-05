@@ -17,6 +17,9 @@ exports.sourceNodes = (
       createNode({
         data: result.data,
         id: result.id || uuid(),
+        // see https://github.com/ldd/gatsby-source-github-api/issues/19
+        // provide the raw result to see errors, or other information
+        rawResult: result,
         parent: null,
         children: [],
         internal: {
