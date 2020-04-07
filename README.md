@@ -117,6 +117,7 @@ You'll probably want to use valid GraphQL queries. To help you, GitHub has a [Qu
 
 ## Changelog
 
+- `v0.2.1` update dependencies
 - `v0.2.0` provide raw github response
 - `v0.1.5` document url option (for GitHub Enterprise users)
 - `v0.1.4`
