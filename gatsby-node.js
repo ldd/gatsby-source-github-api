@@ -3,10 +3,10 @@ const crypto = require("crypto");
 const uuid = require("uuid/v1");
 
 exports.sourceNodes = (
-  { boundActionCreators },
+  { actions },
   { token, variables, graphQLQuery, url }
 ) => {
-  const { createNode } = boundActionCreators;
+  const { createNode } = actions;
   return new Promise((resolve, reject) => {
     // we need a token to use this plugin
     if (token === undefined) {
