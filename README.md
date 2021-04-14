@@ -117,6 +117,7 @@ You'll probably want to use valid GraphQL queries. To help you, GitHub has a [Qu
 
 ## Changelog
 
+- `v1.0.0` add support for gatsby v3. Remove support for older versions of gatsby
 - `v0.2.1` update dependencies
 - `v0.2.0` provide raw github response
 - `v0.1.5` document url option (for GitHub Enterprise users)
